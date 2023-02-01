@@ -1,0 +1,519 @@
+/* ibm-plex-sans-thai-looped-regular - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'IBM Plex Sans Thai Looped';
+  font-style: normal;
+  font-weight: 400;
+  src: url('static/fonts/ibm-plex-sans-thai-looped-v9-latin-regular.woff2') format('woff2'),
+    /* Chrome 36+, Opera 23+, Firefox 39+ */
+    url('static/fonts/ibm-plex-sans-thai-looped-v9-latin-regular.woff') format('woff');
+  /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* ibm-plex-sans-thai-looped-500 - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'IBM Plex Sans Thai Looped';
+  font-style: normal;
+  font-weight: 500;
+  src: url('static/fonts/ibm-plex-sans-thai-looped-v9-latin-500.woff2') format('woff2'),
+    /* Chrome 36+, Opera 23+, Firefox 39+ */
+    url('static/fonts/ibm-plex-sans-thai-looped-v9-latin-500.woff') format('woff');
+  /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* ibm-plex-sans-thai-looped-600 - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'IBM Plex Sans Thai Looped';
+  font-style: normal;
+  font-weight: 600;
+  src: url('static/fonts/ibm-plex-sans-thai-looped-v9-latin-600.woff2') format('woff2'),
+    /* Chrome 36+, Opera 23+, Firefox 39+ */
+    url('static/fonts/ibm-plex-sans-thai-looped-v9-latin-600.woff') format('woff');
+  /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* ibm-plex-sans-thai-looped-700 - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'IBM Plex Sans Thai Looped';
+  font-style: normal;
+  font-weight: 700;
+  src: url('static/fonts/ibm-plex-sans-thai-looped-v9-latin-700.woff2') format('woff2'),
+    /* Chrome 36+, Opera 23+, Firefox 39+ */
+    url('static/fonts/ibm-plex-sans-thai-looped-v9-latin-700.woff') format('woff');
+  /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+
+
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'IBM Plex Sans Thai Looped';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #000000;
+  ;
+}
+
+/* Header start */
+
+
+.wrapper {
+  max-width: 1260px;
+  margin: 0 auto;
+}
+
+.header-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.header-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header-item {
+  margin-right: 84px;
+}
+
+
+/* Logo pic. and text */
+
+.header-logo-pic {
+  position: absolute;
+  width: 56.04px;
+  height: 55px;
+  left: 112.07px;
+  top: 14px;
+}
+
+.logo-text {
+  position: absolute;
+  width: 132.09px;
+  height: 40px;
+  left: 161.11px;
+  top: 29px;
+
+  font-family: 'Contrail One';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+/* Logo and text End */
+
+/* Link an nav. panel */
+
+.header-link-steam {
+  position: absolute;
+  width: 58.04px;
+  height: 33px;
+  left: 387px;
+  top: 35px;
+  font-family: "IBM Plex Sans Thai Looped";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 33px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.header-link-telegram {
+  position: absolute;
+  width: 84.06px;
+  height: 33px;
+  left: 512.08px;
+  top: 35px;
+
+  font-family: 'IBM Plex Sans Thai Looped';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 33px;
+
+  text-decoration: none;
+
+  color: #000000;
+}
+
+.header-link-instagram {
+  text-decoration: none;
+  position: absolute;
+  width: 93.06px;
+  height: 33px;
+  left: 662.79px;
+  top: 35px;
+
+  font-family: 'IBM Plex Sans Thai Looped';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 33px;
+
+
+
+  color: #000000;
+}
+
+.header-link-steam:hover,
+.header-link-steam:focus,
+.header-link-steam:active {
+  opacity: 0.75;
+}
+
+.header-link-telegram:hover,
+.header-link-telegram:focus,
+.header-link-telegram:active {
+  opacity: 0.75;
+}
+
+.header-link-instagram:hover,
+.header-link-instagram:focus,
+.header-link-instagram:active {
+  opacity: 0.75;
+}
+
+/* Link nav. panel end */
+
+/* Header start end */
+
+
+
+/* Intro style start */
+
+.intro {
+  height: 100vh;
+  background: #EBF0FF;
+  max-width: 1920px;
+}
+
+.intro-title {
+  position: absolute;
+  width: 610px;
+  height: 175px;
+  left: 680px;
+  top: 400px;
+  font-family: 'IBM Plex Sans Thai Looped';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 78px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.8);
+  text-shadow: -1px 4px 2px rgb(0 0 0 / 35%);
+}
+
+/* Intro style end */
+
+/* picture plastation */
+.plastation {
+  position: absolute;
+  width: 533.35px;
+  height: 670px;
+  left: 76.05px;
+  top: 96px;
+  background: url(ps3.png);
+}
+
+/* Decor */
+
+/* Circles */
+
+.circle1 {
+  border-radius: 50%;
+  position: absolute;
+  width: 280.18px;
+  height: 297px;
+  left: 1551.14px;
+  top: 7px;
+  background: #FFF500;
+  box-shadow: -10px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.circle2 {
+  border-radius: 50%;
+  position: absolute;
+  width: 114.08px;
+  height: 111px;
+  left: 1326px;
+  top: 35px;
+  background: #FF5C00;
+  box-shadow: -10px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.circle3 {
+  border-radius: 50%;
+  position: absolute;
+  width: 75.05px;
+  height: 75px;
+  left: 1440px;
+  top: 173px;
+  background: #8F00FF;
+  box-shadow: -10px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.circle4 {
+  border-radius: 50%;
+  position: absolute;
+  width: 75.05px;
+  height: 75px;
+  left: 1440px;
+  top: 327px;
+  background: #0094FF;
+  box-shadow: -10px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.circle5 {
+  border-radius: 50%;
+  position: absolute;
+  width: 114.08px;
+  height: 111px;
+  left: 1188px;
+  top: 173px;
+  background: #00FF47;
+  box-shadow: -10px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Circles end */
+
+/* Rectangle */
+
+.rectangle1 {
+  position: absolute;
+  width: 56.04px;
+  height: 250px;
+  left: 1585.8px;
+  top: 510px;
+  background: #FFEC43;
+  box-shadow: -10px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.rectangle2 {
+  position: absolute;
+  width: 72.05px;
+  height: 334px;
+  left: 1662px;
+  top: 370px;
+
+  background: #FFEC43;
+  box-shadow: -10px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.rectangle3 {
+  position: absolute;
+  width: 56.04px;
+  height: 250px;
+  left: 1754px;
+  top: 510px;
+  background: #FFEC43;
+  box-shadow: -10px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Rectangle decor end */
+
+/* Steam slide */
+
+.steam-text-text {
+  position: absolute;
+  width: 400px;
+  height: 45.22px;
+  left: 560px;
+  top: 1150px;
+  font-family: 'IBM Plex Sans Thai Looped';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 53px;
+  color: rgba(159, 221, 255, );
+}
+
+
+.rectangle-steam {
+  position: absolute;
+  width: 1902px;
+  height: 410px;
+  left: 0.5px;
+  top: 979px;
+  background: rgba(0, 14, 141, 0.8);
+}
+
+.steam-icon {
+  position: absolute;
+  width: 300px;
+  height: 294.89px;
+  left: 125px;
+  top: 1030px;
+  background: url(Steam.png);
+}
+
+.add-steam-button {
+  position: absolute;
+  width: 384px;
+  height: 110px;
+  left: 1255px;
+  top: 1125px;
+  background: #F4FAD3;
+}
+
+.text-add-steam {
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  left: 110px;
+  top: 0px;
+  font-family: 'IBM Plex Sans Thai Looped';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+/* Steam slide end */
+
+/* Telegram slide */
+
+.rectangle-telegram{
+  position: absolute;
+  width: 1902px;
+  height: 410px;
+  left: 0.5px;
+  top: 1388px;
+  background: rgba(11, 178, 201, 0.8);
+}
+
+ .telegram-text-text{
+  position: absolute;
+  width: 500px;
+  height: 45.22px;
+  left: 560px;
+  top: 1557px;
+
+  font-family: 'IBM Plex Sans Thai Looped';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 53px;
+
+  color: rgba(0, 56, 255, 0.8);
+} 
+
+.telegram-icon{
+  position: absolute;
+  width: 300px;
+  height: 294.89px;
+  left: 125px;
+  top: 1450px;
+  background: url(телеграм1.png);
+}
+
+.add-telegram-button {
+  position: absolute;
+  width: 384px;
+  height: 110px;
+  left: 1255px;
+  top: 1530px;
+  background: #F4FAD3;
+}
+
+.text-add-telegram {
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  left: 110px;
+  top: 0px;
+  font-family: 'IBM Plex Sans Thai Looped';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+/* Telegram slide end */
+
+/* Instagram slide */
+
+.rectangle-instagram{
+  position: absolute;
+  width: 1902px;
+  height: 410px;
+  left: 0.5px;
+  top: 1798px;
+  background: rgba(253, 182, 0, 1);
+}
+
+.instagram-text-text{
+  position: absolute;
+  width: 500px;
+  height: 45.22px;
+  left: 560px;
+  top: 1960px;
+  font-family: 'IBM Plex Sans Thai Looped';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 53px;
+  color: #FF0F00;
+} 
+
+.instagram-icon{
+  position: absolute;
+  width: 300px;
+  height: 294.89px;
+  left: 125px;
+  top: 1875px;
+  background: url(insta.png);
+}
+
+.add-instagram-button {
+  position: absolute;
+  width: 384px;
+  height: 110px;
+  left: 1255px;
+  top: 1925px;
+  background: #F4FAD3;
+}
+
+.text-add-instagram {
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  left: 110px;
+  top: 0px;
+  font-family: 'IBM Plex Sans Thai Looped';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+/* Instagram slide end */
+
+
