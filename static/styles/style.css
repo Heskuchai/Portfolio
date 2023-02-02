@@ -517,3 +517,14 @@ body {
 /* Instagram slide end */
 
 
+@media screen and (max-width:1160px)  {
+  .intro {
+    background: #EBF0FF;
+    height: 980px;
+    width: 1905px;
+}
+
+
+}
+
+
